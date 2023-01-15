@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+//@ts-ignore
 import { themeChange } from "theme-change";
 
 const ThemeChanger = () => {
