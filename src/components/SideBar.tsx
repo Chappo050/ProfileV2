@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import headshot from "../assets/me.jpeg";
+import ThemeChanger from "./ThemeChanger";
 import Toggle from "./Toggle";
 const SideBar = ({isJapanese, toggleSwitch}:any) => {
 
@@ -34,9 +35,10 @@ const SideBar = ({isJapanese, toggleSwitch}:any) => {
 
       <span className="flex flex-col pt-40">
         Theme:
-        
+        <ThemeChanger/>
       </span>
       <div className="z-50">
+       
         <Toggle isToggled={isJapanese} setToggled={toggleSwitch} />
       </div>
     </ul>

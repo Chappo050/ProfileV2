@@ -13,7 +13,7 @@ export const projects = {
           </>
         ),
         tags: ['AI', 'AWS', 'S3 Bucket', 'REST API', 'Svelte', 'Typescript', 'Sockets', 'MongoDB', 'Mongoose', 'Node.js', 'Heroku', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/RoboRecipe.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/RoboRecipe.png',
         website: 'https://tranquil-hamlet-26805.herokuapp.com/',
         github: 'https://github.com/Chappo050/RoboRecipes'
       },
@@ -30,7 +30,7 @@ export const projects = {
           </>
         ),
         tags: ['REST API', 'React', 'Typescript', 'Sockets', 'MongoDB', 'Mongoose', 'Node.js', 'Heroku', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/ThesauRace.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/ThesauRace.png',
         website: 'https://thesaurace.herokuapp.com/',
         github: 'https://github.com/Chappo050/Thesarace'
       },
@@ -47,7 +47,7 @@ export const projects = {
           </>
         ),
         tags: ['REST API', 'React', 'Typescript', 'MongoDB', 'Mongoose', 'Node.js', 'Heroku', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/Blog.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/Blog.png',
         website: 'https://mern-blog-chappo050.herokuapp.com/',
         github: 'https://github.com/Chappo050/Blog-Heroku'
       },
@@ -64,7 +64,7 @@ export const projects = {
           </>
         ),
         tags: ['React', 'JavaScript', 'BaaS', 'FireBase', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/Finder.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/Finder.png',
         website: 'https://chappo050.github.io/Finder-firebase/',
         github: 'https://github.com/Chappo050/Finder-firebase'
         
@@ -81,7 +81,7 @@ export const projects = {
           </>
         ),
         tags: ['React', 'Typescript', 'Responsive Design', 'Tailwind' ],
-        image: 'src/assets/Profile.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/Profile.png',
         website: 'https://mlchaplin.dev',
         github: 'https://github.com/Chappo050/ProfileV2'
       },
@@ -97,7 +97,7 @@ export const projects = {
           </>
         ),
         tags: ['GraphQL', 'Apollo GraphQL', 'React', 'Typescript', 'MongoDB', 'Mongoose', 'Node.js', 'Framer', 'Tailwind', 'Responsive Design', 'CRUD' ],
-        image: 'src/assets/worldData.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/worldData.png',
         website: 'https://glacial-tor-64648.herokuapp.com/',
         github: 'https://github.com/Chappo050/World_Data'
       },
@@ -116,7 +116,7 @@ export const projects = {
           </>
         ),
         tags: ['AI', 'AWS', 'S3 Bucket', 'REST API', 'Svelte', 'Typescript', 'Sockets', 'MongoDB', 'Mongoose', 'Node.js', 'Heroku', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/RoboRecipe.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/RoboRecipe.png',
         website: 'https://tranquil-hamlet-26805.herokuapp.com/',
         github: 'https://github.com/Chappo050/RoboRecipes'
       },
@@ -132,7 +132,7 @@ export const projects = {
           </>
         ),
         tags: ['REST API', 'React', 'Typescript', 'Sockets', 'MongoDB', 'Mongoose', 'Node.js', 'Heroku', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/ThesauRace.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/ThesauRace.png',
         website: 'https://thesaurace.herokuapp.com/',
         github: 'https://github.com/Chappo050/Thesarace'
       },
@@ -147,7 +147,7 @@ export const projects = {
           </>
         ),
         tags: ['REST API', 'React', 'Typescript', 'MongoDB', 'Mongoose', 'Node.js', 'Heroku', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/Blog.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/Blog.png',
         website: 'https://mern-blog-chappo050.herokuapp.com/',
         github: 'https://github.com/Chappo050/Blog-Heroku'
       },
@@ -163,7 +163,7 @@ export const projects = {
           </>
         ),
         tags: ['React', 'JavaScript', 'BaaS', 'FireBase', 'Tailwind', 'CRUD' ],
-        image: 'src/assets/Finder.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/Finder.png',
         website: 'https://chappo050.github.io/Finder-firebase/',
         github: 'https://github.com/Chappo050/Finder-firebase'
       },
@@ -178,7 +178,7 @@ export const projects = {
           </>
         ),
         tags: ['React', 'Typescript', 'Responsive Design', 'Tailwind' ],
-        image: 'src/assets/Profile.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/Profile.png',
         website: 'https://mlchaplin.dev',
         github: 'https://github.com/Chappo050/ProfileV2'
       },
@@ -192,7 +192,7 @@ export const projects = {
           </>
         ),
         tags: ['GraphQL', 'Apollo GraphQL', 'React', 'Typescript', 'MongoDB', 'Mongoose', 'Node.js', 'Framer', 'Tailwind', 'Responsive Design', 'CRUD' ],
-        image: 'src/assets/worldData.png',
+        image: 'https://raw.githubusercontent.com/Chappo050/test-profile/main/src/assets/worldData.png',
         website: 'https://glacial-tor-64648.herokuapp.com/',
         github: 'https://github.com/Chappo050/World_Data'
       },
