@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import About from "./components/About";
 import App from "./App";
 import Home from "./components/Home";
@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 const RouteSwitch = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="" element={<Home/>} />
@@ -17,7 +17,7 @@ const RouteSwitch = () => {
           <Route path="about" element={<About/>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
