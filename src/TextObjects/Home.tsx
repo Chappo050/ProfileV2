@@ -1,7 +1,7 @@
 export const language = {
     english: {
       greeting: "HELLO",
-      text: "I am a full stack developer that primarily uses the MERN stack",
+      text: "I'm a full stack developer that primarily uses the MERN stack",
       btn: "View Projects"
     
     },
