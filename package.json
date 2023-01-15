@@ -2,7 +2,7 @@
   "name": "renewed-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://Chappo050.github.io/test-profile",
+  "homepage": "https://mlchaplin.dev",
   "type": "module",
   "scripts": {
     "dev": "vite",
