@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 const RouteSwitch = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="">
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="" element={<Home/>} />
