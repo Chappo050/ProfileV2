@@ -2,7 +2,7 @@ import { BsGithub } from "react-icons/bs";
 import { TfiWorld } from "react-icons/tfi";
 const ProjectCard = ({ title, text, tags, image, website, github }: any) => {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-80 lg:w-96 bg-base-100 shadow-xl">
       <figure>
         <img src={image} alt={title} className="" />
       </figure>

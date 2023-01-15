@@ -6,9 +6,9 @@ const About = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content text-center">
-        <div className="max-w-4xl">
+        <div className="w-full lg:max-w-4xl">
           <h1 className="text-5xl font-bold">{ isToggled ? text.english.title : text.japanese.title}</h1>
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div>
               <h2 className="py-6 text-xl font-bold">
                 {isToggled ? text.english.whyProg.title :text.japanese.whyProg.title }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
+import Hamburger from "./components/Hamburger";
 import SideBar from "./components/SideBar";
 function App() {
   const [isToggled, setToggled] = useState(true);

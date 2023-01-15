@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import headshot from "../assets/me.jpeg";
+import Hamburger from "./Hamburger";
 import ThemeChanger from "./ThemeChanger";
 import Toggle from "./Toggle";
 const SideBar = ({isJapanese, toggleSwitch}:any) => {
 
 
   return (
-    <ul className="menu bg-base-300 w-48 h-screen border-r border-base-200 text-xl text-center z-40">
+    <>
+   <Hamburger isToggled={isJapanese}/>
+    <ul className="menu bg-base-300 w-48 h-screen border-r border-base-200 text-xl text-center z-40 hidden lg:flex">
       <img
         src={headshot}
         alt="profile picture"
@@ -33,7 +36,7 @@ const SideBar = ({isJapanese, toggleSwitch}:any) => {
         <Link to="contact">Contact</Link>
       </li>
 
-      <span className="flex flex-col pt-40">
+      <span className="flex flex-col">
         Theme:
         <ThemeChanger/>
       </span>
@@ -42,6 +45,7 @@ const SideBar = ({isJapanese, toggleSwitch}:any) => {
         <Toggle isToggled={isJapanese} setToggled={toggleSwitch} />
       </div>
     </ul>
+    </>
   );
 };
 
