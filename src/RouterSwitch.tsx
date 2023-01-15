@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 const RouteSwitch = () => {
   return (
-    <BrowserRouter basename="">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="" element={<Home/>} />
